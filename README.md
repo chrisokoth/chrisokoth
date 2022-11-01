@@ -1,5 +1,5 @@
-- 👋 Hi, I’m @chrisokoth
-- 👀 I’m interested in back end development and becoming an essentiL Software Engineer
+- 👋 Hi, I’m Chris Okoth
+- 👀 I’m interested in back end development and becoming an essential Software Engineer
 - 🌱 I’m currently pursing a Bachelors course in Information Science at the University of Nairobi and a Software Engineering programme from ALX
 - 💞️ I’m looking to collaborate on projects on back end development and am free to learn front development too
 - I also have interests in Data Science and Machine Learning
