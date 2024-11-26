@@ -1,10 +1,10 @@
 - 👋 Hi, I’m Chris Okoth
-- 
+ 
 I'm a **Software Engineer** and **Data Scientist** with a passion for **Machine Learning**. I enjoy building powerful applications and exploring data-driven solutions to solve real-world problems.
 
 ---
 
-### 🛠 Tech Stack
+###Tech Stack
 
 - **Frameworks & Libraries:** Django, Flask, React, Flutter, Pandas, Tailwind, MUI, Vite, Django REST Framework, AWS EC2
 - **Databases:** MySQL, PostgreSQL, MongoDB
