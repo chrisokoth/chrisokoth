@@ -1,14 +1,71 @@
-- 👋 Hi, I’m Chris Okoth
- 
-I'm a **Software Engineer** and **Data Scientist** with a passion for **Machine Learning**. I enjoy building powerful applications and exploring data-driven solutions to solve real-world problems.
+# 👋 Hi, I'm Crispus Okoth
+
+Software Engineer | Data Scientist
+
+I build scalable backend systems and data-driven solutions that solve real-world problems. My work sits at the intersection of software engineering, data engineering, and analytics — focusing on performance, reliability, and practical impact.
 
 ---
 
-###Tech Stack
+## 🚀 What I Do
 
-- **Frameworks & Libraries:** Django, Flask, React, Flutter, Pandas, Tailwind, MUI, Vite, Django REST Framework, AWS EC2
-- **Databases:** MySQL, PostgreSQL, MongoDB
-- **Version Control:** Git, GitHub
+- Design and build **scalable backend systems** using Python and modern frameworks  
+- Develop **REST APIs and microservices** for production applications  
+- Architect and deploy systems using **Docker, CI/CD, and AWS**  
+- Build **data pipelines and analytics workflows** to support decision-making  
+- Apply **data science and machine learning** to real-world datasets  
+
+---
+
+## 🛠️ Tech Stack
+
+### **Backend & Engineering**
+- Python (Django, Flask)
+- JavaScript (React)
+- REST APIs, Microservices Architecture
+
+### **Data & Analytics**
+- Pandas, NumPy, Scikit-learn
+- SQL (PostgreSQL, MySQL)
+- Power BI, Data Visualization
+
+### **DevOps & Cloud**
+- AWS (EC2, S3, RDS)
+- Docker
+- CI/CD (GitHub Actions)
+- Linux, NGINX, Gunicorn
+
+---
+
+## 📊 Current Focus
+
+- Building **high-performance backend systems**
+- Designing **data pipelines for analytics and ML workflows**
+- Exploring **scalable SaaS architectures**
+- Bridging **software engineering and data science in production systems**
+
+---
+
+## 💼 Experience Snapshot
+
+- **Software Engineering Lead** — Leading system architecture, DevOps, and backend development  
+- **Software Engineer** — Building APIs, improving system performance, and scaling applications  
+- **Data Scientist** — Developed credit risk models and dashboards for decision-making  
+
+---
+
+## 📌 Selected Work
+
+You’ll find projects here that focus on:
+- Backend systems and APIs  
+- Data pipelines and analytics  
+- Real-world problem solving
+
+
+
+## ⚡ Philosophy
+
+I focus on **building things that work in real environments** — not just code that runs locally.  
+Clean architecture, measurable impact, and continuous improvement drive how I approach engineering.
 
 ---
 
@@ -18,7 +75,7 @@ I'm a **Software Engineer** and **Data Scientist** with a passion for **Machine 
 - **[Email](mailto:chrisokoth17@gmail.com):** Feel free to reach out!
 
 Thanks for visiting, and feel free to explore my projects! 😊
-- 💞️ I'm always eager to collaborate on projects related to backend development, and I'm open to learning frontend development as well. Additionally, I have a keen interest in Data Science and Machine Learning.
+- 💞️ I'm always eager to collaborate on projects.
 - 📫 Don't hesitate to reach out to me. I'm always excited to connect with like-minded individuals
 
 <!---
