@@ -94,12 +94,19 @@ def collect(user, token, org, org_token):
     exclude_org = f" -org:{org}" if org and org_token else ""
     merged = search_count(token, f"is:pr is:merged author:{user}{exclude_org}")
     reviewed = search_count(token, f"is:pr reviewed-by:{user} -author:{user}{exclude_org}")
+    print(f"Personal search: {merged} merged, {reviewed} reviewed")
     if org and org_token:
         try:
-            merged += search_count(org_token, f"is:pr is:merged author:{user} org:{org}")
-            reviewed += search_count(org_token, f"is:pr reviewed-by:{user} -author:{user} org:{org}")
+            org_merged = search_count(org_token, f"is:pr is:merged author:{user} org:{org}")
+            org_reviewed = search_count(org_token, f"is:pr reviewed-by:{user} -author:{user} org:{org}")
+            print(f"Organization search ({org}): {org_merged} merged, {org_reviewed} reviewed")
+            merged += org_merged
+            reviewed += org_reviewed
         except urllib.error.HTTPError as err:
-            print(f"warning: organization search failed ({err.code}); using public counts only", file=sys.stderr)
+            print(f"warning: organization search failed ({err.code}: {err.read().decode(errors='replace')[:300]})")
+    else:
+        missing = [name for name, value in (("ORG_NAME", org), ("ORG_TOKEN", org_token)) if not value]
+        print(f"Organization search skipped: {', '.join(missing)} not set")
 
     languages = {}
     for repo in profile["repositories"]["nodes"]:

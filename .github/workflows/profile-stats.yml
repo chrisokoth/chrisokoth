@@ -31,7 +31,7 @@ jobs:
         env:
           GH_USER: ${{ github.repository_owner }}
           STATS_TOKEN: ${{ secrets.STATS_TOKEN }}
-          ORG_NAME: ${{ vars.ORG_NAME }}
+          ORG_NAME: ${{ vars.ORG_NAME || secrets.ORG_NAME }}
           ORG_TOKEN: ${{ secrets.ORG_TOKEN }}
         run: python .github/scripts/generate_stats.py "$RUNNER_TEMP/cards"
 
