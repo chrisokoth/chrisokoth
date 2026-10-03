@@ -100,8 +100,8 @@ My background spans engineering leadership, API and platform development, and qu
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=chrisokoth&show_icons=true&hide_border=true&bg_color=0d1117&title_color=e6edf3&text_color=8b949e&icon_color=58a6ff&include_all_commits=true&count_private=true" alt="GitHub statistics" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=chrisokoth&layout=compact&hide_border=true&bg_color=0d1117&title_color=e6edf3&text_color=8b949e&langs_count=6" alt="Most used languages" />
+<img height="180" src="https://github-readme-stats-eight-taupe-28.vercel.app/api?username=chrisokoth&show_icons=true&hide_border=true&bg_color=0d1117&title_color=e6edf3&text_color=8b949e&icon_color=58a6ff&include_all_commits=true&count_private=true&show=reviews,prs_merged" alt="GitHub statistics" />
+<img height="180" src="https://github-readme-stats-eight-taupe-28.vercel.app/api/top-langs/?username=chrisokoth&layout=compact&hide_border=true&bg_color=0d1117&title_color=e6edf3&text_color=8b949e&langs_count=6" alt="Most used languages" />
 
 </div>
 
